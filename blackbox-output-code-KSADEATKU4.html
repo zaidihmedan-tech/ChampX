@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Champx - Premier Taekwondo Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-fist-raised"></i>
+                    <span>Champx</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#classes">Classes</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#trainers">Trainers</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Master the Art of Taekwondo</h1>
+            <p>Join Champx and unlock your potential through the dynamic kicks, powerful strikes, and unbreakable discipline of Taekwondo.</p>
+            <div class="hero-buttons">
+                <a href="#classes" class="btn btn-primary">Join Now</a>
+                <a href="#schedule" class="btn btn-secondary">View Schedule</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop" alt="Taekwondo Training">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Champx</h2>
+                <p>Where Champions Are Forged</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>World-Class Taekwondo Training</h3>
+                    <p>Champx is the premier Taekwondo academy dedicated to developing elite athletes and confident individuals. Our expert instructors bring decades of competitive experience and Olympic-level training methods to every class.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-medal"></i>
+                            <h4>Proven Results</h4>
+                            <p>National & International Champions</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <h4>Expert Coaches</h4>
+                            <p>Certified Black Belts & Olympians</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-dumbbell"></i>
+                            <h4>Modern Facilities</h4>
+                            <p>State-of-the-Art Training Mats</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1608248597782-7eeaf6a10734?w=600&h=400&fit=crop" alt="Dojo Interior">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Classes Section -->
+    <section id="classes" class="classes">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Classes</h2>
+                <p>Training Programs for Every Level</p>
+            </div>
+            <div class="classes-grid">
+                <div class="class-card">
+                    <div class="class-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3>Kids Taekwondo (4-12)</h3>
+                    <p>Fun, engaging classes that build confidence, discipline, and coordination through age-appropriate Taekwondo techniques.</p>
+                    <ul>
+                        <li>3x/week classes</li>
+                        <li>Belt testing program</li>
+                        <li>Character development</li>
+                    </ul>
+                    <div class="price">$120/month</div>
+                </div>
+                <div class="class-card featured">
+                    <div class="ribbon">Most Popular</div>
+                    <div class="class-icon">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <h3>Adult Beginner</h3>
+                    <p>Perfect for adults starting their Taekwondo journey. Learn proper techniques, improve fitness, and build self-defense skills.</p>
+                    <ul>
+                        <li>4x/week classes</li>
+                        <li>Personalized attention</li>
+                        <li>Fitness conditioning</li>
+                    </ul>
+                    <div class="price">$140/month</div>
+                </div>
+                <div class="class-card">
+                    <div class="class-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3>Competition Team</h3>
+                    <p>Elite training for tournament competitors. Focus on forms, sparring, and breaking with championship-level coaching.</p>
+                    <ul>
+                        <li>6x/week training</li>
+                        <li>Tournament preparation</li>
+                        <li>Video analysis</li>
+                    </ul>
+                    <div class="price">$220/month</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="schedule">
+        <div class="container">
+            <div class="section-header">
+                <h2>Class Schedule</h2>
+                <p>Flexible Training Times</p>
+            </div>
+            <div class="schedule-tabs">
+                <button class="tab-btn active" data-tab="monday">Monday</button>
+                <button class="tab-btn" data-tab="tuesday">Tuesday</button>
+                <button class="tab-btn" data-tab="wednesday">Wednesday</button>
+                <button class="tab-btn" data-tab="thursday">Thursday</button>
+                <button class="tab-btn" data-tab="friday">Friday</button>
+                <button class="tab-btn" data-tab="saturday">Saturday</button>
+            </div>
+            <div class="schedule-content">
+                <div class="tab-content active" id="monday">
+                    <div class="schedule-table">
+                        <div class="time-slot">
+                            <span class="time">5:00 PM</span>
+                            <span class="class">Kids Taekwondo</span>
+                            <span class="age">4-12 yrs</span>
+                        </div>
+                        <div class="time-slot">
+                            <span class="time">6:00 PM</span>
+                            <span class="class">Adult Beginner</span>
+                            <span class="age">13+ yrs</span>
+                        </div>
+                        <div class="time-slot">
+                            <span class="time">7:30 PM</span>
+                            <span class="class">Competition Team</span>
+                            <span class="age">By invite</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Additional tab contents would follow similar structure -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section id="trainers" class="trainers">
+        <div class="container">
+            <div class="section-header">
+                <h2>World-Class Trainers</h2>
+                <p>Learn from the Best</p>
+            </div>
+            <div class="trainers-grid">
+                <div class="trainer-card">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=400&fit=crop" alt="Master Kim">
+                    <div class="trainer-info">
+                        <h3>Master Ji-Hoon Kim</h3>
+                        <p>7th Dan Black Belt</p>
+                        <div class="achievements">
+                            <span>World Champion 2012</span>
+                            <span>Olympic Coach</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=400&fit=crop" alt="Coach Sarah">
+                    <div class="trainer-info">
+                        <h3>Sarah Thompson</h3>
+                        <p>4th Dan Black Belt</p>
+                        <div class="achievements">
+                            <span>National Champion</span>
+                            <span>Kids Program Director</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <img src="https://images.unsplash.com/photo-1508186225823-0963cf9a94c8?w=300&h=400&fit=crop" alt="Coach Mike">
+                    <div class="trainer-info">
+                        <h3>Mike Rodriguez</h3>
+                        <p>5th Dan Black Belt</p>
+                        <div class="achievements">
+                            <span>Sparring Specialist</span>
+                            <span>Competition Team Coach</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get Started Today</h2>
+                <p>Your Taekwondo journey begins here</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>123 Martial Arts Blvd<br>Sports City, SC 12345</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>(555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@champx.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="">Select Program</option>
+                            <option value="kids">Kids Taekwondo</option>
+                            <option value="adult">Adult Beginner</option>
+                            <option value="competition">Competition Team</option>
+                        </select>
+                    </div>
+                    <textarea placeholder="Tell us about your goals..." rows="5"></textarea>
+                    <button type="submit" class="btn btn-primary">Start My Free Trial</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-fist-raised"></i>
+                        <span>Champx</span>
+                    </div>
+                    <p>Building champions through the art of Taekwondo.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#classes">Classes</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Programs</h4>
+                    <ul>
+                        <li>Kids Taekwondo</li>
+                        <li>Adult Beginner</li>
+                        <li>Competition Team</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@champx.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Sports City, SC</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Champx Taekwondo Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
